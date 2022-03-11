@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px;
+    color: #242424;
+    background-color: #FFFFF4;
+}
+button {
+    background: none;
+    background-color: #5d9930;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 6px 16px;
+    font-size: 16px;
+    margin: 8px 0;
+    color: white;
+}
+button:hover {
+    color: #242424;
+    background-color: rgba(93, 153, 48, 0.4);
+}
+button:focus {
+    outline: none;
+    border: 2px solid green;
+}
+.btn-primary {
+    background-color: #4D4D3D;
+}
+.btn-primary:hover {
+    background-color: #8B9386;
+}
+.btn-secondary {
+    background-color: #5d9930;
+}
+.queue {
+    display: flex;
+    align-items: center;
+}
+.person-item {
+    background-color: #8B9386;
+    color: #FFF;
+    padding: 16px 8px;
+    margin: 4px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.checkouts-container {
+    display: flex;
+    justify-content: space-between;
+}
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #FFF;
+    background-color: #58555A;
+    padding: 8px 8px;
+}
+.checkout .person-item {
+    background-color: #FFE849;
+    color: #242424;
+}
+.checkout > .material-icons, .person-item > .material-icons {
+    font-size: 48px;
+}

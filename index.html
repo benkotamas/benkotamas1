@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+    rel="stylesheet">
+    <title>Kassza szimulálás - async/await</title>
+</head>
+
+<body>
+    <div class="controls">
+        <button class="control-btn btn-primary" onclick="addCheckout()"> 
+            Hagyományos Pénztárra Váró
+        </button>
+        <button class="control-btn btn-secondary" onclick="addSelfService()"> 
+            Önkiszolgáló Pénztárra Váró
+        </button>
+    </div>
+
+    <h3>Várakozók</h3>
+    <div id="queue" class="queue">
+    </div>
+
+    <h3>Kasszák</h3>
+    <div class="checkouts-container">
+        <div class="checkout">
+            <span class="material-icons">
+                person
+            </span>
+
+            <div id="checkout-1" class="checkout-queue">
+
+            </div>
+        </div>
+        <div class="checkout">
+            <span class="material-icons">
+                person
+            </span>
+
+            <div id="checkout-2" class="checkout-queue">
+
+            </div>
+            
+        </div>
+        <div class="checkout">
+            <span class="material-icons">
+                person
+            </span>
+
+            <div id="checkout-3" class="checkout-queue">
+
+            </div>
+        </div>
+        <div class="checkout">
+            <span class="material-icons">
+                person
+            </span>
+
+            <div id="checkout-4" class="checkout-queue">
+
+            </div>
+        </div>
+        <div class="checkout">
+            <span class="material-icons">
+                person
+            </span>
+
+            <div id="checkout-5" class="checkout-queue">
+
+            </div>
+        </div>
+        <div class="checkout">
+            <span class="material-icons">
+                person_outline
+            </span>
+
+            <div id="checkout-6" class="checkout-queue">
+
+            </div>
+        </div>
+        <div class="checkout">
+            <span class="material-icons">
+                person_outline
+            </span>
+
+            <div id="checkout-7" class="checkout-queue">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
